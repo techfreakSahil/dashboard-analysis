@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import share from "../assets/Icon-1.png";
 import setting from "../assets/Icon-2.png";
 import exit from "../assets/Icon-3.png";

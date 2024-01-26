@@ -1,4 +1,3 @@
-import React from "react";
 import pic1 from "../assets/pic1.png";
 import view from "../assets/document-download.svg";
 import pic2 from "../assets/pic2.png";
@@ -124,7 +123,7 @@ const View = ({ isDarkTheme, theme }: any) => {
     <>
       {datas.map((data) => (
         <>
-          <div className="my-4 py-3 flex pt-2">
+          <div key={data.id} className="my-4 py-3 flex pt-2">
             <img src={view}></img>
             <div
               style={{ color: isDarkTheme ? theme.text : "#0D062D" }}

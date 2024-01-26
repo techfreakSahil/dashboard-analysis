@@ -1,6 +1,4 @@
-import React from "react";
 import { MdOutlineCalendarMonth } from "react-icons/md";
-import { IoNotificationsOutline } from "react-icons/io5";
 import search from "../assets/searchicon.png";
 import profile from "../assets/Profile.png";
 import arrow from "../assets/Arrow---Down-2.png";

@@ -1,4 +1,3 @@
-import React from "react";
 import SalesTrend from "./SalesTrend";
 import { useTheme } from "../context/ThemeProvider";
 

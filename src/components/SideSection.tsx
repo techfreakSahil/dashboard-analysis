@@ -1,4 +1,3 @@
-import React from "react";
 import box1 from "../assets/box-tick.png";
 import green from "../assets/Group 3.png";
 import trendingup from "../assets/trending-up.png";

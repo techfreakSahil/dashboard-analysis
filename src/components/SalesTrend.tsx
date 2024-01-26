@@ -1,10 +1,6 @@
-import React, { useState } from "react";
 import arrow from "../assets/Arrow---Down-2.png";
-import bar from "../assets/Bar.png";
-import dot from "../assets/Line.png";
 import { Bar } from "react-chartjs-2";
 import { Chart as ChartJS } from "chart.js/auto";
-import Calendar from "react-calendar";
 import { months, dataSet, options, backgroundColorBar } from "../config";
 import {
   CategoryScale,
@@ -27,7 +23,7 @@ ChartJS.register(
 
 const SalesTrend = () => {
   const { isDarkTheme, theme } = useTheme();
-  const [userData, setUserData] = useState({
+  const userData = {
     labels: months.map((month) => month),
     datasets: [
       {
@@ -36,7 +32,7 @@ const SalesTrend = () => {
         backgroundColor: backgroundColorBar,
       },
     ],
-  });
+  };
   return (
     <>
       <div className="flex justify-between">

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import logo from "../assets/Vector.png";
 import menu from "../assets/Frame 12.png";
 import share from "../assets/Frame 12-1.png";

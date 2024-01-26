@@ -1,6 +1,3 @@
-import React from "react";
-import green from "../assets/Group 3.png";
-import trending from "../assets/trending-up.png";
 import { useTheme } from "../context/ThemeProvider";
 
 const Card = ({

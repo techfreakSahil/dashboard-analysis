@@ -1,4 +1,3 @@
-import React from "react";
 import MainMenu from "./MainMenu";
 import OtherMenu from "./OtherMenu";
 import { useTheme } from "../context/ThemeProvider";
